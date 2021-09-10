@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box  ;
+}
+body{
+    margin: 10px 100px 30px 20px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-repeat:repeat-y  ;
+}
+h1{
+    color: rgb(40, 24, 61);
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+
+.underline{
+        text-decoration: underline;
+}
+
+p{
+    font-size: 20px;
+    text-align: left;
+    
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 20px indigo;
+    
+    
+}
+
+#topbar{
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    background-color: rgba(126, 122, 139, 0.384);
+    align-items: center;
+    margin: 20px 50px 100px 50px;
+    font-size: 70px;
+    overflow-wrap: break-word;
+    justify-content: space-around;
+
+
+
+
+}
+
+.box{ 
+    display: flex;
+    font-size: 70px;
+    justify-content: left;
+    align-items: flex-end;
+    width: 100%;
+    margin-left: 50vh;  
+
+}
+.charbox{
+    display: flex;
+    justify-content: flex-start;
+    max-height: 20%;
+
+}
+.charpics{
+    min-width: 200px;
+    height: 200px;
+}
+
+.links{
+    color: deeppink;
+    background-color: none;
+}
+.links:visited{
+    color: deeppink;
+    background-color: none;
+}
+
+#Frog{
+    color: rgb(123, 180, 36);
+}
+.desc{
+    font-size: 30px;
+    margin: 100px 100px 100px 3 00px;
+}
+a:hover{
+    color: lightblue;
+}
+
+a:visited{
+    color: rgb(116, 114, 114);
+
+}
+:alink{
+    color: rgb(116, 114, 114);
+}
+
+
+img{
+    display: flex;
+    size: cover ;
+    margin: 0px;
+
+    align-items: flex-start;
+}
+#diffont{
+ font-family: "Arial", Arial, Helvetica, sans-serifserif;
+}
